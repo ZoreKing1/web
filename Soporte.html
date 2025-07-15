@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soporte Técnico - Mundo Coleccionable</title>
+        <link href="../Estilos/Estilos Generales.css" rel="stylesheet" type="text/css"/>
+        <link href="../Estilos/Estilos Soporte.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="navbar">
+            <a href="Principal.html" class="logo-link">
+                <div class="logo">
+                    <img src="../media/Destacados/logo2.png" alt="Logo" width="90"/>
+                    <h1>Mundo Coleccionable</h1>
+                </div>
+            </a>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar..." class="search-input">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="carrito.html">🛒 Carrito</a></li>
+                    <li><a href="pago.html">💳 Pago</a></li>
+                    <li><a href="login.html">👤Usuario</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <body>
+
+        <!-- Hero Section -->
+        <main class="contenido-principal">
+            <section class="hero">
+                <div class="container">
+                    <h1>Soporte</h1>
+                    <p>Protegemos tu información con los más altos estándares de seguridad y confidencialidad.</p>
+                </div>
+            </section>
+
+            <!-- Sección de Seguridad -->
+            <div class="container">
+                <section class="security-section" id="seguridad">
+                    <h2><i class="fas fa-shield-alt"></i> Nuestro Compromiso con tu Seguridad</h2>
+                    <p>En Mundo Coleccionable, implementamos medidas de seguridad avanzadas para proteger tu información personal y financiera. Nuestras bases de datos están codificadas y estructuradas para garantizar la máxima confidencialidad.</p>
+
+                    <div class="security-features">
+                        <div class="security-card">
+                            <i class="fas fa-key"></i>
+                            <h3>Claves de Acceso Únicas</h3>
+                            <p>Sólo tú tienes acceso a tu información con tu clave personal. Mundo Coleccionable nunca almacena contraseñas en texto plano.</p>
+                        </div>
+                        <div class="security-card">
+                            <i class="fas fa-database"></i>
+                            <h3>Bases de Datos Codificadas</h3>
+                            <p>Toda la información se almacena en bases de datos cifradas con tecnología de última generación.</p>
+                        </div>
+                        <div class="security-card">
+                            <i class="fas fa-user-secret"></i>
+                            <h3>Confidencialidad Garantizada</h3>
+                            <p>Tu información personal nunca es compartida con terceros sin tu consentimiento explícito.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Formulario de Contacto -->
+                <section class="contact-form" id="contacto">
+                    <h2><i class="fas fa-envelope"></i> Contacta a nuestro Equipo de Soporte</h2>
+                    <form id="support-form">
+                        <div class="form-group">
+                            <label for="name">Nombre completo:</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Tipo de consulta:</label>
+                            <select id="subject" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="seguridad">Consulta de seguridad</option>
+                                <option value="cuenta">Problema con mi cuenta</option>
+                                <option value="datos">Actualización de datos</option>
+                                <option value="otro">Otra consulta</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" required placeholder="Describe tu consulta con el mayor detalle posible"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox">
+                                <input type="checkbox" id="privacy" required>
+                                <label for="privacy">He leído y acepto la <a href="privacidad.html" target="_blank">Política de Privacidad</a> de Phantom</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                        </button>
+                        <!-- Ventana emergente de confirmación -->
+                        <div id="successModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <h3>¡Mensaje enviado con éxito!</h3>
+                                <p>Hemos recibido tu consulta y te responderemos a la brevedad.</p>
+                                <button id="modal-close-btn" class="modal-button">Aceptar</button>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+            <<footer class="footer-container">
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=61575329587965">
+                        <img src="../media/Footer/facebook.png" alt=""/>
+
+                    </a>
+                    <a href="https://www.instagram.com/mundocoleccionable_10/">
+                        <img src="../media/Footer/IG.png" alt=""/> 
+                    </a>
+                    <a href="https://x.com/Mcoleccionable">
+                        <img src="../media/Footer/gorjeo.png" alt=""/>
+                    </a>
+                </div>
+                <div class="footer-content">    
+                    <div class="footer-section">
+                        <h3>Sobre Nosotros</h3>
+                        <ul>
+                            <li><a href="Sobre Nosotros.html">Nosotros</a></li>
+                            <li><a href="Formas de envio.html">Formas de envío</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Atención al cliente</h3>
+                        <ul>
+                            <li><a href="Preguntas Frecuentes.html">Preguntas frecuentes</a></li>
+                            <li><a href="Soporte.html">Soporte</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Políticas</h3>
+                        <ul>
+                            <li><a href="Politica de Garantia.html">Política de garantía</a></li>
+                            <li><a href="Politica de Privacidad.html">Política de privacidad</a></li>
+                            <li><a href="Termino y Condiciones.html">Términos y condiciones</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h3>Horario de atención</h3>
+                        <ul>
+                            <li>Lunes a Viernes de 8:00 a.m. a 6:00 p.m.</li>
+                            <li>Sábados y Domingos de 9:00 a.m. a 2:00 p.m.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025 MundoColeccionable. Todos los derechos reservados.</p>
+                    <p>Contacto: info.mundocoleccion@gmail.com | Tel: +51 950 151 869</p>
+                </div>
+            </footer>
+            <script src="../Java/Java Soporte.js"></script>
+    </body>
+</html>

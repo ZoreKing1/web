@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Mundo Coleccionable</title>
+    <link href="../Estilos/Estilos Generales.css" rel="stylesheet" type="text/css"/>
+    <link href="../Estilos/Estilos RestaurandoArcade.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="Principal.html" class="logo-link">
+            <div class="logo">
+                <img src="../media/Destacados/logo2.png" alt="Logo" width="90"/>
+                <h1>Mundo Coleccionable</h1>
+            </div>
+        </a>
+
+        <!-- Barra de búsqueda -->
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar..." class="search-input">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">🛒 Carrito</a></li>
+                <li><a href="pago.html">💳 Pago</a></li>
+                <li><a href="login.html">👤Usuario</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="blog-container">
+        <section class="articulo">
+            <h2 class="articulo-titulo"><i class="fas fa-gamepad"></i> Restaurando una Máquina Arcade: Un Viaje al Pasado</h2>
+            <div class="articulo-contenido">
+                <p>¿Quién no recuerda la emoción de insertar una moneda en una máquina arcade y sumergirse en mundos pixelados? Para muchos coleccionistas, tener una máquina arcade en casa es el sueño. Pero, ¿qué pasa cuando encuentras una joya oxidada y olvidada? Aquí te contamos nuestra experiencia restaurando una clásica máquina de los 80.</p>
+
+                <div class="arcade-image">
+                    <img src="../media/blog/restaurada1.jpg" alt="Máquina Arcade Restaurada">
+                </div>
+
+                <h3><i class="fas fa-brush"></i> El Primer Paso: Evaluación y Limpieza</h3>
+                <p>Antes de empezar cualquier trabajo de restauración, es crucial evaluar el estado de la máquina. ¿Funciona la placa base? ¿Están los joysticks y botones operativos? ¿Cuál es el estado del monitor? Una vez que tenemos una idea clara, la limpieza es fundamental. Quita todo el polvo, la suciedad y el óxido acumulado con cuidado. Utiliza productos específicos para cada superficie: limpiadores para metal, madera y plástico.</p>
+                <p>Nuestra máquina tenía una capa de nicotina y años de abandono. Dedicamos varias horas solo a la limpieza exterior e interior, revelando el arte original del gabinete.</p>
+
+                <h3><i class="fas fa-microchip"></i> Reparación de Componentes Internos</h3>
+                <ul>
+                    <li><strong>Monitor CRT:</strong> Los monitores antiguos suelen ser un punto débil. En muchos casos, necesitan recap (reemplazo de condensadores) o incluso un reemplazo total si están gravemente dañados. Consulta a un técnico si no tienes experiencia en electrónica de alto voltaje.</li>
+                    <li><strong>Placa Jamma/PCB:</strong> La placa que contiene el juego es el corazón de la máquina. Prueba su funcionamiento. Si no arranca, busca cortocircuitos o componentes quemados. A veces, un simple resoldado de conexiones frías puede solucionar el problema.</li>
+                    <li><strong>Fuente de Alimentación:</strong> Asegúrate de que la fuente de alimentación esté entregando los voltajes correctos. Un voltaje inestable puede dañar la placa del juego.</li>
+                </ul>
+
+                <div class="arcade-image">
+                    <img src="../media/blog/aracde2.png" alt="Componentes internos de una arcade">
+                </div>
+
+                <h3><i class="fas fa-paint-roller"></i> Estética: Gabinete, Arte y Controles</h3>
+                <p>Una vez que la máquina funciona, es hora de hacerla lucir bien. Lijar y pintar el gabinete puede darle una nueva vida. Si el arte original (marquee, bezel, panel de control) está dañado, puedes buscar reproducciones en línea o incluso encargar diseños personalizados. Reemplazar los joysticks y botones gastados por unos nuevos no solo mejora la apariencia, sino también la experiencia de juego.</p>
+                <p>En nuestro caso, el arte original estaba muy deteriorado. Optamos por recrear el diseño clásico de Pac-Man, dándole un toque fresco pero respetando su esencia.</p>
+
+                <h3><i class="fas fa-trophy"></i> Conclusión: Una Joya Revivida</h3>
+                <p>Restaurar una máquina arcade es un proyecto que requiere paciencia, dedicación y, a menudo, aprender nuevas habilidades. Pero la recompensa de ver esa pantalla encenderse, escuchar los sonidos clásicos y sentir la respuesta de los controles, es inigualable. ¡Es como tener un pedazo de historia de los videojuegos en tu propia casa!</p>
+
+                <div class="interactive-area">
+                    <h3><i class="fas fa-question-circle"></i> ¿Qué paso te parece más desafiante?</h3>
+                    <p>Escribe en el cuadro de texto cuál de los pasos de restauración crees que es el más difícil o el que más te intriga.</p>
+                    <input type="text" id="desafioInput" placeholder="Ej: Reparación de controles">
+                    <button id="desafioBtn" class="articulo-enlace">Enviar Respuesta</button>
+                    <p id="outputMensaje" style="margin-top: 15px; font-weight: bold;"></p>
+                </div>
+
+                <p>¿Has restaurado alguna máquina arcade? ¡Comparte tu experiencia en los comentarios!</p>
+            </div>
+        </section>
+
+        <div class="back-to-blog">
+            <a href="blog.html" class="articulo-enlace"><i class="fas fa-arrow-left"></i> Volver al Blog</a>
+        </div>
+    </main>
+
+
+    <footer class="footer-container">
+        <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=61575329587965">
+                <img src="../media/Footer/facebook.png" alt=""/>
+
+            </a>
+            <a href="https://www.instagram.com/mundocoleccionable_10/">
+                <img src="../media/Footer/IG.png" alt=""/> 
+            </a>
+            <a href="https://x.com/Mcoleccionable">
+                <img src="../media/Footer/gorjeo.png" alt=""/>
+            </a>
+        </div>
+        <div class="footer-content">    
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <ul>
+                    <li><a href="Sobre Nosotros.html">Nosotros</a></li>
+                    <li><a href="Formas de envio.html">Formas de envío</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Atención al cliente</h3>
+                <ul>
+                    <li><a href="Preguntas Frecuentes.html">Preguntas frecuentes</a></li>
+                    <li><a href="Soporte.html">Soporte</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Políticas</h3>
+                <ul>
+                    <li><a href="Politica de Garantia.html">Política de garantía</a></li>
+                    <li><a href="Politica de Privacidad.html">Política de privacidad</a></li>
+                    <li><a href="Termino y Condiciones.html">Términos y condiciones</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Horario de atención</h3>
+                <ul>
+                    <li>Lunes a Viernes de 8:00 a.m. a 6:00 p.m.</li>
+                    <li>Sábados y Domingos de 9:00 a.m. a 2:00 p.m.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 MundoColeccionable. Todos los derechos reservados.</p>
+            <p>Contacto: info.mundocoleccion@gmail.com | Tel: +51 950 151 869</p>
+        </div>
+    </footer>
+    <script src="../Java/RestaurandoArcade.js"></script>
+</body>
+</html>
